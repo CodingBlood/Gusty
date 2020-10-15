@@ -1,6 +1,5 @@
 #ifndef WIDGET_H
 #define WIDGET_H
-
 #include <QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -16,13 +15,14 @@ public:
     Widget(QWidget *parent = nullptr);
     ~Widget();
 
-private slots:
-    void on_Guess_clicked();
 
-    void on_StartOver_clicked();
+private slots:
+    void on_Calculator_clicked();
+
+
+    void on_GuessingGame_clicked();
 
 private:
     Ui::Widget *ui;
-    int SecretValue,GuessValue;
 };
 #endif // WIDGET_H

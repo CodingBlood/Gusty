@@ -9,13 +9,19 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
+    calculator.cpp \
+    guessing_game.cpp \
     main.cpp \
     widget.cpp
 
 HEADERS += \
+    calculator.h \
+    guessing_game.h \
     widget.h
 
 FORMS += \
+    calculator.ui \
+    guessing_game.ui \
     widget.ui
 
 # Default rules for deployment.
